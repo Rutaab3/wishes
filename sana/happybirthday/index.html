@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Make a Wish</title>
+    <meta name="title" content="Make a Wish">
+    <meta name="description" content="A special birthday surprise for Sanaullah!">
+
+    <meta property="fb:app_id" content="123456789"/>
+
+    <meta property="og:image:secure_url" content="https://rutaab3.github.io/birthday/sana/image.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rutaab3.github.io/birthday/sana/?v=1">
+    <meta property="og:title" content="Make a Wish">
+    <meta property="og:description" content="A special birthday surprise for Sanaullah!">
+    <meta property="og:image" content="https://rutaab3.github.io/birthday/sana/image.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rutaab3.github.io/birthday/sana/">
+    <meta property="twitter:title" content="Make a Wish">
+    <meta property="twitter:description" content="A special birthday surprise for Sanaullah!">
+    <meta property="twitter:image" content="https://rutaab3.github.io/birthday/sana/image.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script id="birthday-data" type="application/json">
+        {
+            "name": "Sanaullah",
+            "date": "28 / April / 2026",
+            "title": "Happy Birthday!",
+            "message": "Wishing you a day filled with sweetness, laughter, and majestic moments. May this year you find your New Shanto"
+        }
+    </script>
+
+    <button id="start-btn">Open Surprise</button>
+
+
+    <div class="text-container" id="text-card">
+        <img class="image" src="image.png" alt="Birthday Image">
+        <h1 id="b-title"></h1>
+        <p class="date" id="b-date"></p>
+        <div id="message-wrapper">
+            <p class="message" id="b-msg"></p>
+        </div>
+    </div>
+
+    <div class="cake-stage" id="cake-stage" style="display:none;">
+        <div class="candles-container" id="candles">
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+        </div>
+
+        <div class="frosting-coating" id="coating">
+            <div class="drip drip-1"></div>
+            <div class="drip drip-2"></div>
+            <div class="drip drip-3"></div>
+            <div class="drip drip-4"></div>
+            <div class="drip drip-5"></div>
+            <div class="drip drip-6"></div>
+            <div class="drip drip-7"></div>
+            <div class="piping">
+                <div class="swirl"></div>
+                <div class="swirl"></div>
+                <div class="swirl"></div>
+                <div class="swirl"></div>
+                <div class="swirl"></div>
+            </div>
+            <div class="sprinkles" id="sprinkles-box"></div>
+        </div>
+
+        <div class="layer" id="layer-3"></div>
+        <div class="cream" id="cream-2"></div>
+        <div class="layer" id="layer-2"></div>
+        <div class="cream" id="cream-1"></div>
+        <div class="layer" id="layer-1"></div>
+
+
+
+        <div class="cake-stand" id="stand"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
